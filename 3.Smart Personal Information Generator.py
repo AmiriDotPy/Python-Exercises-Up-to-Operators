@@ -36,7 +36,7 @@ Password Security: ُStrong
 """
 
 
-print("Generating a Digital Identity Report: ")
+print("Smart Personal Information Generator: ")
 print("")
 #ُStart - Receiving input and initializing variables
 Fname = input("First Name: ").strip().lower()
