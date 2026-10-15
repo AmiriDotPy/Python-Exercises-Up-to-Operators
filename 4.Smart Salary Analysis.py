@@ -1,3 +1,4 @@
+
 """
 Algorithm:
 1. Define fixed salary values, hourly wage, overtime rate, and tax rate.
@@ -7,19 +8,24 @@ Algorithm:
 5. Determine employee experience, income, and loyalty statuses.
 6. Print employee information, employment status, and salary details.
 
+
+
 Example Input:
-Employee Full Name: mohammad amin amiri
-Employee Department: memar
-Employee Overtime Hours: 40
-Leave Hours: 32
-Employment Year: 2018
+Employee Full Name: Mohyaldin Amiri
+Employee Department: Programmer
+Employee Overtime Hours: 50
+Leave Hours: 16
+Employment Year: 2016
+
+
 
 Example Output:
+----------INFO----------
 Employee Name: Mohyaldin Amiri      Department: Programmer      Employee ID: PRMOH1643
 Monthly Base Salary: 21000000    Daily Base Salary: 700000    Hourly Base Salary: 87500    Overtime Hourly Rate: 122499
 Tax Rate: 9%       Tax Amount:2441245
 ----------Status----------
-Current Year: 2026      Employment Year: 2016      Work Experience: 10
+Current Year: 2026      Employment Year: 2016      Work Experience: 10 Year
 Leave Hours: 16      Overtime Hours: 50      Salary Deduction For Leave: 0
 Employee Experience Status: Experienced     Employee Loyalty Status: Loyal      Employee Income Status: High Income
 ----------Salary----------
@@ -80,7 +86,7 @@ print(f'Monthly Base Salary: {MonthlyBaseSalary}    Daily Base Salary: {int(Mont
 print(f'Tax Rate: {TaxRate}%       Tax Amount:{TaxAmount}')
 
 print("----------Status----------")
-print(f'Current Year: {datetime.now().year}      Employment Year: {EmploymentYear}      Work Experience: {WorkExperience}')
+print(f'Current Year: {datetime.now().year}      Employment Year: {EmploymentYear}      Work Experience: {WorkExperience} Year')
 print(f'Leave Hours: {LeaveHours}      Overtime Hours: {OvertimeHours}      Salary Deduction For Leave: {SalaryDeductionForLeave}')
 
 print(f'Employee Experience Status: {EmployeeExperience}     Employee Loyalty Status: {EmployeeLoyalty}      Employee Income Status: {EmployeeIncome}')
